@@ -21,15 +21,13 @@
 					<li id="li_tab1" onclick="tab('tab1')"><a href="#home"><i class="fa fa-home fa-lg"></i></a></li>
 					<!--<li id="li_tab1" onclick="tab('tab1')"><a href="#home">Brandon</a></li>-->
 					
-					<li id="li_tab1" onclick="tab('tab1')" id="abouttab"><a href="#about">About</a></li>
-					<li id="li_tab1" onclick="tab('tab1')" id="projecttab"><a href="#projects">Projects</a></li>
+					<li id="li_tab1" onclick="tab('tab1')" id="abouttab"><a href="#home">About</a></li>
+					<li id="projecttab"><a href="#home">Projects</a></li>
 					<li id="li_tab2" onclick="tab('tab2')"><a href="#resume">Resume</a></li>
 				</ul>	
 			</nav>
 		</div>
 
-		<div id="home">
-		</div>
 		<div class="jumbotron">
 			<div class="container">
 				<div id="infobox">
@@ -93,16 +91,12 @@
 		<div id="tab1">
 			<div class="about">
 				<div class="container">
-					<div id= "about">
-						<h1></h1>
-					</div>
-					<div class="row">
+					
+					<div id="about" class="row">
 						<div id="aboutme">
 							<p>Hello there!  My name is Brandon, and I am a second-year computer science student attending UCLA.  I'm always on the lookout for neat software and programming opportunities to gain more experience on real life large (or small) scale applications. I prefer to focus on Android and iOS mobile platforms, with a growing interest in mobile networking applications.  But I am happy to take on any programming challenge offered to me!  When I'm not coding, you will see me swimming, making music, or reading! Contact info is on my <a id="li_tab2" onclick="tab('tab2')" href="#resume">resume</a>.</p>
 						</div>
-						<div id = "projects">
-							<h3></h3>
-						</div>
+						<h3></h3>
 						<h2>Some Stuff I Do</h2>
 					</div>
 					
@@ -343,7 +337,7 @@
 			  }(jQuery));
 		</script>
 
-		<script type="text/javascript">
+		<!--<script type="text/javascript">
 			$("#abouttab").click(function() {
 			    $('html, body').animate({
 			        scrollTop: $("#about").offset().top
@@ -357,7 +351,7 @@
 			        scrollTop: $("#projects").offset().top
 			    }, 2000);
 			});
-		</script>
+		</script>-->
 	</footer>
 
 </html>
