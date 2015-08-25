@@ -6,7 +6,8 @@
 
 body{
 	font-family: 'Raleway';
-	background: linear-gradient(45deg, #663524, #b7d8c3);
+	background-color: #E0F5FF;
+	/*background: linear-gradient(45deg, #663524, #b7d8c3);*/
 }
 	/*Too resource intensive
 	background-size: 400% 400%;
@@ -157,8 +158,8 @@ body{
 	opacity: .9;
 	width: auto;
 }
-#about{
-	height: 40px;
+#aboutscroll{
+	height: 20px;
 }
 #aboutme{
 	color: #6C6C6C;
@@ -231,6 +232,7 @@ body{
 }
 
 #title{
+	padding-top: 30px;
 	font-family: Arial;
 	font-weight: 100;
 	text-align: center;
