@@ -41,9 +41,9 @@ body{
 	/*background: url('https://farm8.staticflickr.com/7440/12529937283_088eda711b_k.jpg');*/
 	background: url(images/colorchange.jpg) no-repeat center center fixed;
 	background-repeat: no-repeat;
-	height: 550px;
+	background-position: top;
+	height: 600px;
 	background-size: cover;
-	box-shadow: 
 }
 /*.jumbotron .container h1{
 	font-size:  130px;
